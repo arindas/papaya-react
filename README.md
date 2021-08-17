@@ -1,5 +1,7 @@
 # papaya-react
 
+![CI/CD](https://github.com/arindas/papaya-react/workflows/CI/CD/badge.svg)
+
 React wrapper around https://github.com/rii-mango/Papaya
 
 ## Steps to incorporate `Papaya` into your React App
