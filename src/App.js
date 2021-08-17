@@ -2,6 +2,8 @@ import React, { useCallback, useEffect, useMemo, useState } from 'react';
 
 import './App.css';
 
+import medical_image_preview from './assets/medical_image_preview.jpg';
+
 function App() {
   const [selectedFile, setSelectedFile] = useState("");
   const [nonDicomImg, setNonDicomImg] = useState(false);
@@ -34,8 +36,11 @@ function App() {
   }, [params, selectedFile]);
 
   const selectFile = useCallback(
-    (e) => setSelectedFile(e.target.files[0]), []
-  );
+    (e) => setSelectedFile(e.target.files[0]), []);
+
+  const handleURLExpired = useCallback((e) => {
+    e.target.onerror = null; e.target.src = medical_image_preview
+  }, []);
 
   return (
     <div>
@@ -44,7 +49,10 @@ function App() {
         {!!selectedFile && !!nonDicomImg && <img
           alt="Medical file preview"
           src={URL.createObjectURL(selectedFile)}
-          style={{width: "800px", height: "600px", objectFit: "contain" }}/>}
+          style={{ width: "800px", height: "600px", objectFit: "contain" }}
+          onError={handleURLExpired}
+        />
+        }
         <br />
 
         <form style={{ margin: "10px" }}
