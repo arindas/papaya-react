@@ -102,3 +102,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## License
+
+`papaya-react` is licensed under the GPLv3 License See [LICENSE](./LICENSE) for the full license text.
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Farindas%2Fpapaya-react.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Farindas%2Fpapaya-react?ref=badge_large)
