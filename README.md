@@ -1,4 +1,35 @@
-# Getting Started with Create React App
+# papaya-react
+
+React wrapper around https://github.com/rii-mango/Papaya
+
+## Steps to incorporate `Papaya` into your React App
+
+- Copy the papaya minified js to your public folder. For instance
+```
+# from repository root
+cp -r /path/to/Papaya/repo/release/standard public/papaya_standard
+```
+
+- Include the JS and CSS files in `public/index.html`
+```html
+<link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/papaya_standard/papaya.css?build=1449" />
+<script type="text/javascript" src="%PUBLIC_URL%/papaya_standard/papaya.js?build=1449"></script>
+```
+
+- In your react component, you must initialize papaya as follows:
+```js
+const params = useMemo(() => {
+    const p = []; p["kioskMode"] = true;
+    return p;
+  }, [])
+
+  useEffect(() => {
+    window.papaya.Container.startPapaya();
+    window.papaya.Container.resetViewer(0, params);
+  }, [params]);
+```
+
+- Checkout `./src/App.js` for details on file selection and loading.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
