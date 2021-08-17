@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.a617e044.chunk.css",
-    "main.js": "/static/js/main.7bc975e1.chunk.js",
-    "main.js.map": "/static/js/main.7bc975e1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1e3bbee9.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1e3bbee9.js.map",
-    "static/js/2.995acb96.chunk.js": "/static/js/2.995acb96.chunk.js",
-    "static/js/2.995acb96.chunk.js.map": "/static/js/2.995acb96.chunk.js.map",
-    "static/js/3.e6fa067d.chunk.js": "/static/js/3.e6fa067d.chunk.js",
-    "static/js/3.e6fa067d.chunk.js.map": "/static/js/3.e6fa067d.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.995acb96.chunk.js.LICENSE.txt": "/static/js/2.995acb96.chunk.js.LICENSE.txt",
-    "static/media/medical_image_preview.a8d44f44.jpg": "/static/media/medical_image_preview.a8d44f44.jpg"
+    "main.css": "/papaya-react/static/css/main.a617e044.chunk.css",
+    "main.js": "/papaya-react/static/js/main.7bc975e1.chunk.js",
+    "main.js.map": "/papaya-react/static/js/main.7bc975e1.chunk.js.map",
+    "runtime-main.js": "/papaya-react/static/js/runtime-main.ae5ecdfc.js",
+    "runtime-main.js.map": "/papaya-react/static/js/runtime-main.ae5ecdfc.js.map",
+    "static/js/2.995acb96.chunk.js": "/papaya-react/static/js/2.995acb96.chunk.js",
+    "static/js/2.995acb96.chunk.js.map": "/papaya-react/static/js/2.995acb96.chunk.js.map",
+    "static/js/3.e6fa067d.chunk.js": "/papaya-react/static/js/3.e6fa067d.chunk.js",
+    "static/js/3.e6fa067d.chunk.js.map": "/papaya-react/static/js/3.e6fa067d.chunk.js.map",
+    "index.html": "/papaya-react/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/papaya-react/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.995acb96.chunk.js.LICENSE.txt": "/papaya-react/static/js/2.995acb96.chunk.js.LICENSE.txt",
+    "static/media/medical_image_preview.a8d44f44.jpg": "/papaya-react/static/media/medical_image_preview.a8d44f44.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1e3bbee9.js",
+    "static/js/runtime-main.ae5ecdfc.js",
     "static/js/2.995acb96.chunk.js",
     "static/css/main.a617e044.chunk.css",
     "static/js/main.7bc975e1.chunk.js"
