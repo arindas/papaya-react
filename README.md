@@ -33,8 +33,8 @@ useEffect(() => {
 ```
 
 - In `React` `JSX`, specify the viewer component as follows:
-```
-<div id="papaya_viewer" class="papaya" hidden={nonDicomImg}></div>
+```html
+<div id="papaya_viewer" class="papaya"></div>
 ```
 
 - Checkout [`./src/App.js`](./src/App.js) for details on file selection and loading.
