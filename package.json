@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -35,5 +36,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://arindas.github.io/papaya-react"
+  "homepage": "https://arindas.github.io/papaya-react",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
 }
