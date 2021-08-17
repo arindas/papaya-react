@@ -39,7 +39,8 @@ function App() {
     (e) => setSelectedFile(e.target.files[0]), []);
 
   const handleURLExpired = useCallback((e) => {
-    e.target.onerror = null; e.target.src = medical_image_preview
+    e.target.onerror = null; 
+    e.target.src = medical_image_preview;
   }, []);
 
   return (
