@@ -22,17 +22,22 @@ cp -r /path/to/Papaya/repo/release/standard public/papaya_standard
 - In your react component, you must initialize papaya as follows:
 ```js
 const params = useMemo(() => {
-    const p = []; p["kioskMode"] = true;
-    return p;
-  }, [])
+  const p = []; p["kioskMode"] = true;
+  return p;
+}, [])
 
-  useEffect(() => {
-    window.papaya.Container.startPapaya();
-    window.papaya.Container.resetViewer(0, params);
-  }, [params]);
+useEffect(() => {
+  window.papaya.Container.startPapaya();
+  window.papaya.Container.resetViewer(0, params);
+}, [params]);
 ```
 
-- Checkout `./src/App.js` for details on file selection and loading.
+- In `React` `JSX`, specify the viewer component as follows:
+```
+<div id="papaya_viewer" class="papaya" hidden={nonDicomImg}></div>
+```
+
+- Checkout [`./src/App.js`](./src/App.js) for details on file selection and loading.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
